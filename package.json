@@ -1,0 +1,27 @@
+{
+  "name": "git-unprotected-branches",
+  "version": "1.0.0",
+  "description": "Node.js script that audits all repositories in a specified GitHub organization to find which repos have at least one unprotected branch",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "unprotected branches"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezewer/git-unprotected-branches.git"
+  },
+  "keywords": [
+    "unprotected",
+    "branches"
+  ],
+  "author": "Ezequiel Wernicke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezewer/git-unprotected-branches/issues"
+  },
+  "homepage": "https://github.com/ezewer/git-unprotected-branches#readme",
+  "dependencies": {
+    "@octokit/rest": "^21.1.1"
+  }
+}
